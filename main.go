@@ -2,7 +2,7 @@ package main
 
 import(
 	"fmt"
-	"addons"
+	"github.com/ResiIlya/Go-test/addons"
 )
 
 func main() {
