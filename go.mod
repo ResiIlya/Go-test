@@ -1,3 +1,3 @@
-module github.com/ResiIlya/test1
+module github.com/ResiIlya/Go-test
 
 go 1.18
