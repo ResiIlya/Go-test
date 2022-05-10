@@ -5,7 +5,7 @@ import (
 )
 
 // Вычисление Квадратного корня
-func Sqrtl(x float64) float64 {
+func Sqrt(x float64) float64 {
 	z := float64(1)
 	tmp := z
 	tmptmp := tmp
@@ -24,5 +24,5 @@ func Sqrtl(x float64) float64 {
 }
 
 func main() {
-	fmt.Println(Sqrtl(2))
+	fmt.Println(Sqrt(2))
 }
