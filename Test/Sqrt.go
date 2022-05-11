@@ -6,6 +6,9 @@ import (
 
 // Вычисление Квадратного корня
 func Sqrt(x float64) float64 {
+	if x <= 0{
+		return 0
+	}
 	z := float64(1)
 	tmp := z
 	tmptmp := tmp
